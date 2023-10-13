@@ -1,0 +1,6 @@
+# This file summarizes the entire appliance by listing each system in the order in which 
+# the systems will be deployed, including the name of the config file that defines each system.
+  
+lakehouse-core: acm-system-templates/lakehouse-core.yaml 
+lakehouse-engineer: acm-system-templates/lakehouse-engineer.yaml
+lakehouse-scientist: acm-system-templates/lakehouse-scientist.yaml
